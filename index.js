@@ -2,7 +2,7 @@ const playBtn = document.getElementById('play-btn')
 const pauseBtn = document.getElementById('pause-btn')
 const stopBtn = document.getElementById('stop-btn')
 
-const xmasAudio = new Audio('./bells.mp3')
+const xmasAudio = new Audio('./fire-and-ice.mp3')
 console.log('dave')
 
 playBtn.addEventListener('click', () => xmasAudio.play())
